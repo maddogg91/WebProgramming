@@ -1,0 +1,111 @@
+<html>
+<nav class="product-filter">
+
+  <img src="https://images.squarespace-cdn.com/content/v1/5daf77e88cdf4c18bd6ad58d/1588698232753-53FVP16UKNUTNS76S6S2/IMG_8579.JPG?format=750w" class="center">
+  <h1>Sybil's Inspiring Poems</h1>
+  
+
+  <div id= main class="sort">
+
+    <div id= main class="collection-sort">
+      <label>Filter by:</label>
+      <select>
+        <option value="/">All Books</option>
+      </select>
+    </div>
+
+    <div id= main class="collection-sort">
+      <label>Sort by:</label>
+      <select>
+        <option value="/">Featured</option>
+      </select>
+    </div>
+
+  </div>
+
+</nav>
+
+<style>
+	#main {
+			background: lightyellow;
+			
+		}
+		
+.product-filter {
+  display: flex;
+}
+
+.product-filter h1 {
+  flex-grow: 1;
+}
+.sort {
+  display: flex;
+}
+
+.collection-sort {
+  display: flex;
+  flex-direction: column;
+}
+p{
+padding-left: "100px";
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+
+  display: flex; /* so child elements can use flexbox stuff too! */
+}
+
+
+.product-image img {
+  max-width: 100%;
+}
+
+.product-info {
+  margin-top: auto;
+}
+
+</style>
+<section class="products">
+
+  <!-- It's likely you'll need to link the card somewhere. You could add a button in the info, link the titles, or even wrap the entire card in an <a href="..."> -->
+
+    <div id=main class="product-card">
+	 <div id=main class="product-image">
+	 <p>
+	 <a href="mtcv1.html">
+	 <img src="images/front-list.jpg">
+	 </a>
+	 </p>
+    </div>
+    <div id= main class="product-info">
+      <h5>Ministering Through Cliches Volume 1</h5>
+      <h6>$15.00</h6>
+    </div>	
+  </div>
+  <div id=main class="product-card">
+	 <div id= main class="product-image">
+     <p>
+	 <a href="mtcv2.html">
+	 <img src="images/front-list.jpg">
+	 </a>
+	 </p>
+    </div>
+    <div id=main class="product-info">
+      <h5>Ministering Through Cliches Volume 2</h5>
+      <h6>$15.00</h6>
+    </div>	
+  </div>
+
+  
+
+  <!-- more products -->
+
+</section>
+</html>

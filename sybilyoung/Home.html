@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+	<header>
+		<script src="./Jquery/jquery-3.6.0.min.js"></script>
+		<link rel="stylesheet" href="./Foundation/css/foundation.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/js/foundation.min.js"></script>
+		<script>
+
+			function displayNewBody(){
+				var text= document.getElementById("be");
+				if (text.style.display == "none")
+				{
+					text.style.display= "block";
+				}
+				else{
+					text.style.display= "none";
+				}
+			}
+		</script>
+		<img src="https://i.ibb.co/yPn18C6/Sybil-s-Inspiring.gif" width="100%" height="50px">
+		<p id="be"style='display:none'>Ministering Through Cliches Volume I and II, on sale now! Go to the book portal to find out more.</p>
+		<button id="button" type= 'button' onclick="displayNewBody()">Click to show today's message</button>
+	</header>
+	<head>
+		<title>Home</title>
+		<style>
+		button{
+			padding-left: 600px;	
+			}
+		p{
+			padding-left: 1000px;
+		}
+		a{
+			position: relative;
+			display: inline-block;
+			font-size: 2em;
+			font-weight: 650;
+			color: black;
+			overflow: hidden;
+			text-align: center;
+			 background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+			 background-clip: text;
+  			-webkit-background-clip: text;
+  			-webkit-text-fill-color: transparent;
+  			background-size: 200% 100%;
+  			background-position: 100%;
+  			transition: background-position 275ms ease;
+		}
+		a:hover {
+ 		 background-position: 0 100%;
+		}
+
+
+
+		#main {
+			background: lightyellow;
+			
+		}
+		#left{
+			background: black;
+			height: 500px;
+			width: 350px;
+			float: left;
+		}
+		#bottom
+		{
+			background: lightyellow;
+			height: 200px;
+			width: 1000px;
+
+		}
+		#full {
+			clear: both;
+		}
+		#bottom_menu {
+ 			width: 633px;
+  			float: left;
+  			padding: 30px 30px 0 0;
+		}
+
+		#footer {
+  			height: 153px;
+  			font-family: Arial, Helvetica, sans-serif;
+  			font-size: 12px;
+  			color: #9A9A9A;
+  		}
+
+		.around {
+			border: 1px solid black;
+			height: 800px;
+			width: 800px;
+		}
+		
+		p{
+			padding-left: 350px;
+		}
+		h1{text-align: center;}
+		.center {
+		padding-left: 200px;
+  		display: block;
+ 		margin-right: auto;
+  		width: 50%;
+		}
+			
+
+		}
+		.foot {
+			border: 1px solid black;
+			height: 200px;
+			width: 1000px;
+		}
+
+		.cell{
+			border:  1px solid black;
+		}
+
+		</style>
+		<script>
+			function createAlert() {
+				alert("Welcome to Sybil's Inspiring!");
+				return(false);
+			}
+		</script>
+	</head>
+	<body>
+		<div class="grid-x"> 
+			<div id=main class="cell small-12 medium-12 large-12">
+				<h1>Welcome to Sybil Young's Inspiring Website</h1>
+			</div>
+		</div>
+			<div id= left class=around class="cell small-8 medium-4 large-4">
+				<p2 style="background-color: black;color: whitesmoke;">"Sybil Young is the author and baker for Sybil's Inspiring Poems and Heavenly Made Pies respectively. Using her God-given talents, Sybil ministers to those individuals needing spiritual support and restoration. Her tireless dedication to serving God has granted her an unreal anointing inspiring her to write multiple books inspired by the teachings of the lord." 
+				</p2>
+			</div>
+
+			<div id= main class="cell small-12 medium-4 large-4">
+				<img src="https://images.squarespace-cdn.com/content/v1/5daf77e88cdf4c18bd6ad58d/1588698232753-53FVP16UKNUTNS76S6S2/IMG_8579.JPG?format=750w" class="center">
+				<br>
+			</div>
+		</div>
+		<div class="grid-x"> 
+			<div id= main class="cell small-12 medium-12 large-12"> 
+				<a href='' onclick="createAlert();
+				return(false);
+				"><p> Press me </p></a> 
+			</div> <br> 
+			<div id= "footer">
+		<div id = "bottom_menu"> <ul> <p>Copyright 2021</p> <p>Sybil's
+		Inspiring Poems & Heavenly Made Pies</p> </ul> </div> </div>
+		</div>
+
+	</body>
+</html>
+	
